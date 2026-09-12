@@ -1,7 +1,7 @@
-<%= div_for @post do %>
+<div id="<%= dom_id(@post) %>">
   <h2>ID <%= h(@post.id) %></h2>
   <strong>Title:</strong> <%= h(@post.title) %>
   <br>
   <br>
-  <strong>Body:</strong> <%=  simple_format h(@post.body) %>
-<% end %>
+  <strong>Body:</strong> <%= simple_format h(@post.body) %>
+</div>
