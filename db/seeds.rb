@@ -1,5 +1,6 @@
 # Seed at least 5 records. Development/test and production get different posts
 # so the lab screenshots show distinct databases.
+# Review app branch: keep this comment so Heroku can spin a PR review app.
 
 [
   { first_name: "Ada", last_name: "Lovelace" },
